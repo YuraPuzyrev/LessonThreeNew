@@ -107,6 +107,22 @@ public class TestTwo {
         }
 
     }*/
+        Scanner yr = new Scanner(System.in);
+        System.out.println("Введите количество лет");
+        int y = yr.nextInt();
+        if (y>=5 && y<=20) {
+            System.out.println(y + " лет");
+        } else if (y>=2 && y<=4) {
+            System.out.println(y + " года");
+        } else if (y>=100 && y%100>=5 && y%100<=20) {
+            System.out.println(y + " лет");
+        } else if (y%10>=2 && y%10<=4) {
+            System.out.println(y + " года");
+        } else if (y%10==1){
+            System.out.println(y + " год");
+        } else {
+            System.out.println(y + " лет");
+        }
 
     }
 
