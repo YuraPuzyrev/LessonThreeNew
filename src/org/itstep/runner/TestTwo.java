@@ -107,6 +107,7 @@ public class TestTwo {
         }
 
     }*/
+        //ЗАДАНИЕ №5*
         Scanner yr = new Scanner(System.in);
         System.out.println("Введите количество лет");
         int y = yr.nextInt();
