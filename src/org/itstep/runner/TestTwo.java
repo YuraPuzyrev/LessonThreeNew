@@ -19,7 +19,6 @@ public class TestTwo {
         boolean b = true;
         System.out.println(f==j);*/
 
-        //ЗАДАНИЕ №1
         /*Scanner scanner = new Scanner(System.in);
         int l;
         int m;
@@ -37,7 +36,7 @@ public class TestTwo {
             System.out.println("Выполнилась секция else");}*/
 
 
-        //ЗАДАНИЕ №2
+        //ЗАДАНИЕ №1
         /*Scanner tr = new Scanner(System.in);
         int y;
         int h;
