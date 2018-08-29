@@ -108,7 +108,7 @@ public class TestTwo {
 
     }*/
         //ЗАДАНИЕ №5*
-        Scanner yr = new Scanner(System.in);
+        /*Scanner yr = new Scanner(System.in);
         System.out.println("Введите количество лет");
         int y = yr.nextInt();
         if (y>=5 && y<=20) {
@@ -123,10 +123,10 @@ public class TestTwo {
             System.out.println(y + " год");
         } else {
             System.out.println(y + " лет");
-        }
+        }*/
 
     }
-
 }
+
 
 
