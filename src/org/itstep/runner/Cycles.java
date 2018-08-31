@@ -65,7 +65,7 @@ public class Cycles {
         System.out.println(j);*/
 
         //ЗАДАНИЕ №6*
-        /*Scanner a = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
         int x;
         int y;
         int z;
@@ -73,7 +73,7 @@ public class Cycles {
             System.out.println("Введите первое целое число");
             while (!a.hasNextInt()){
                 System.out.println("Введите целое число!");
-                a.nextLine();
+                a.next();
             }
             x = a.nextInt();
         } while (x <= 0);
@@ -82,7 +82,7 @@ public class Cycles {
             System.out.println("Введите второе целое число");
             while (!a.hasNextInt()){
                 System.out.println("Введите целое число!");
-                a.nextLine();
+                a.next();
             }
             y = a.nextInt();
         } while (y <= 0);
@@ -91,11 +91,11 @@ public class Cycles {
             System.out.println("Введите третье целое число");
             while (!a.hasNextInt()){
                 System.out.println("Введите целое число!");
-                a.nextLine();
+                a.next();
             }
             z = a.nextInt();
         } while (z <= 0);
         System.out.println("Вы ввели число: " +z);
-        System.out.println("Вы ввели числа: " +x+ " " +y+ " " +z);*/
+        System.out.println("Вы ввели числа: " +x+ " " +y+ " " +z);
     }
 }
