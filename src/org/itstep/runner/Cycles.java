@@ -65,7 +65,7 @@ public class Cycles {
         System.out.println(j);*/
 
         //ЗАДАНИЕ №6*
-        Scanner a = new Scanner(System.in);
+        /*Scanner a = new Scanner(System.in);
         int x;
         int y;
         int z;
@@ -96,6 +96,6 @@ public class Cycles {
             z = a.nextInt();
         } while (z <= 0);
         System.out.println("Вы ввели число: " +z);
-        System.out.println("Вы ввели числа: " +x+ " " +y+ " " +z);
+        System.out.println("Вы ввели числа: " +x+ " " +y+ " " +z);*/
     }
 }
