@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Random;
 public class TaskFour {
     public static void main(String[] args) {
-        Random r = new Random();
+        /*Random r = new Random();
         int a = r.nextInt(20);
         int t = 0;
         System.out.println("Угадайте число! У вас есть ровно пять попыток!");
@@ -28,6 +28,6 @@ public class TaskFour {
             } if (t>=5) {
                 System.out.println("Поражение!");
             }
-        } while (t<5);
+        } while (t<5);*/
     }
 }
