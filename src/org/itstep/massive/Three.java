@@ -2,7 +2,7 @@ package org.itstep.massive;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
-public class Two {
+public class Three {
     public static void main(String[] args) {
         int[] a = new int[10];
         Scanner sc = new Scanner(System.in);
@@ -18,5 +18,10 @@ public class Two {
                 break;
             }
         }  System.out.println("Массив = " + Arrays.toString(a));
+        double sum = 0;
+        for (int x: a){
+            sum = sum+x;
+        }
+        System.out.println("Среднее арифметическое массива = " +sum/a.length);
     }
 }
