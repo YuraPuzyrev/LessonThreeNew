@@ -20,8 +20,8 @@ public class Five {
             }
         }  System.out.println("Массив = " + Arrays.toString(a));
         b = a[0];
-        a[0] = a[9];
-        a[9] = b;
+        a[0] = a[a.length-1];
+        a[a.length-1] = b;
         System.out.println("Массив = " + Arrays.toString(a));
     }
 }
