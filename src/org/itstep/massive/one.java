@@ -5,13 +5,13 @@ import java.util.Scanner;
 import java.util.Random;
 public class one {
     public static void main(String[] args) {
-        int[] a = new int[10];
+        /*int[] a = new int[10];
         Random r = new Random();
         for(int i = 0; i<a.length; i++) {
             a[i] = r.nextInt(10);
-        System.out.print(a[i]+ " ");}
+        System.out.print(a[i]+ " ");}*/
 
-        /*int[][] a;
+        int[][] a;
         a = new int[10][5];
         Random r = new Random();
         for (int i = 0; i < a.length; i++) {
@@ -25,6 +25,6 @@ public class one {
                 System.out.print(a[i][j] + " ");
             }
             System.out.println();
-        }*/
+        }
     }
 }

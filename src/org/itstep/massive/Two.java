@@ -1,7 +1,7 @@
 package org.itstep.massive;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.Random;
+        import java.util.Arrays;
+        import java.util.Scanner;
+        import java.util.Random;
 public class Two {
     public static void main(String[] args) {
         int[] a = new int[10];
